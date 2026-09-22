@@ -94,3 +94,5 @@ El proyecto exige profundidad y funcionalidad real sobre una sola rebanada verti
   - 
 - **Fuentes académicas y técnicas consultadas:**
   -
+
+
