@@ -1,0 +1,1019 @@
+{
+  "play-pokemon-penalty-guidelines-es.pdf": {
+    "fonts": {
+      "11.0": 96609,
+      "14.0": 1014,
+      "16.0": 972,
+      "12.0": 955,
+      "20.0": 230,
+      "18.0": 77,
+      "10.0": 51,
+      "36.0": 42
+    },
+    "headings_sample": [
+      {
+        "page": 1,
+        "size": 18.0,
+        "text": "1",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "Normativa de",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "penalizaciones",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "de Play! Pokémon",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 16.0,
+        "text": "VERSIÓN EN ESPAÑOL (ESPAÑA)",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 18.0,
+        "text": "2",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 16.0,
+        "text": "Índice",
+        "bold": false
+      },
+      {
+        "page": 3,
+        "size": 18.0,
+        "text": "3",
+        "bold": true
+      },
+      {
+        "page": 4,
+        "size": 18.0,
+        "text": "4",
+        "bold": true
+      },
+      {
+        "page": 5,
+        "size": 18.0,
+        "text": "5",
+        "bold": true
+      },
+      {
+        "page": 5,
+        "size": 20.0,
+        "text": "1",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 20.0,
+        "text": "Introducción",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "1.1",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "¿A quién está dirigido este documento?",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "1.2",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Instrucciones de uso",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 18.0,
+        "text": "6",
+        "bold": true
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "1.3",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "¿Cuál es el objetivo de este documento?",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "1.4",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Aviso sobre posibles cambios",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 20.0,
+        "text": "2",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 20.0,
+        "text": "Filosofía",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 18.0,
+        "text": "7",
+        "bold": true
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "2.1",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "Jueces",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 18.0,
+        "text": "8",
+        "bold": true
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "2.1.1",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "Cumplimiento de las instrucciones del juez",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "2.2",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Infracción básica",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "2.3",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Estado del juego",
+        "bold": false
+      },
+      {
+        "page": 9,
+        "size": 18.0,
+        "text": "9",
+        "bold": true
+      },
+      {
+        "page": 9,
+        "size": 16.0,
+        "text": "2.4",
+        "bold": false
+      },
+      {
+        "page": 9,
+        "size": 16.0,
+        "text": "Imposición de la penalización más adecuada",
+        "bold": false
+      },
+      {
+        "page": 10,
+        "size": 18.0,
+        "text": "10",
+        "bold": true
+      },
+      {
+        "page": 10,
+        "size": 20.0,
+        "text": "3",
+        "bold": false
+      },
+      {
+        "page": 10,
+        "size": 20.0,
+        "text": "Penalizaciones",
+        "bold": false
+      },
+      {
+        "page": 10,
+        "size": 16.0,
+        "text": "3.1",
+        "bold": false
+      }
+    ]
+  },
+  "play-pokemon-standards-of-conduct-es.pdf": {
+    "fonts": {
+      "11.0": 44503,
+      "16.0": 691,
+      "14.0": 494,
+      "20.0": 212,
+      "10.0": 52,
+      "19.0": 29,
+      "46.0": 18
+    },
+    "headings_sample": [
+      {
+        "page": 1,
+        "size": 19.0,
+        "text": "1",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 46.0,
+        "text": "Normas de conducta",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 16.0,
+        "text": "VERSIÓN EN ESPAÑOL (ESPAÑA)",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 19.0,
+        "text": "2",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 16.0,
+        "text": "Índice",
+        "bold": false
+      },
+      {
+        "page": 3,
+        "size": 19.0,
+        "text": "3",
+        "bold": true
+      },
+      {
+        "page": 4,
+        "size": 19.0,
+        "text": "4",
+        "bold": true
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "Introducción",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "1.1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "Documentación y responsabilidad de los participantes",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "2",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "Conducta en el evento",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 19.0,
+        "text": "5",
+        "bold": true
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "2.1",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Pautas de comportamiento para los asistentes",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "2.2",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Comportamiento inapropiado",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 19.0,
+        "text": "6",
+        "bold": true
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "2.3",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Fotografía y grabación",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "2.4",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Vestimenta y",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "cosplay",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "2.5",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Denunciar incidentes en los eventos",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 19.0,
+        "text": "7",
+        "bold": true
+      },
+      {
+        "page": 7,
+        "size": 20.0,
+        "text": "3",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 20.0,
+        "text": "El espíritu de juego",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "3.1",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "Diversión",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "3.2",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "Justicia",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "3.3",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 16.0,
+        "text": "Respeto",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 19.0,
+        "text": "8",
+        "bold": true
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "3.4",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Comunidad",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 20.0,
+        "text": "4",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 20.0,
+        "text": "Conducta de la comunidad",
+        "bold": false
+      }
+    ]
+  },
+  "play-pokemon-tournament-rules-handbook-es.pdf": {
+    "fonts": {
+      "11.0": 101516,
+      "12.0": 9977,
+      "14.0": 2025,
+      "16.0": 978,
+      "10.0": 289,
+      "20.0": 259,
+      "18.0": 103,
+      "36.0": 46,
+      "6.5": 2
+    },
+    "headings_sample": [
+      {
+        "page": 1,
+        "size": 18.0,
+        "text": "1",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "Manual de reglas de los",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "torneos",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 36.0,
+        "text": "de Play! Pokémon",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 14.0,
+        "text": "VERSIÓN EN ESPAÑOL (ESPAÑA)",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 18.0,
+        "text": "2",
+        "bold": true
+      },
+      {
+        "page": 3,
+        "size": 18.0,
+        "text": "3",
+        "bold": true
+      },
+      {
+        "page": 4,
+        "size": 18.0,
+        "text": "4",
+        "bold": true
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "Introducción e instrucciones de uso",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "1.1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "Materiales de apoyo",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "1.2",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "Secciones recomendadas y tipos de público",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 18.0,
+        "text": "5",
+        "bold": true
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "1.3",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Responsabilidad de los participantes",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 18.0,
+        "text": "6",
+        "bold": true
+      },
+      {
+        "page": 6,
+        "size": 20.0,
+        "text": "2",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 20.0,
+        "text": "Bases de participación",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "2.1",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Requisitos de participación en los eventos",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 14.0,
+        "text": "2.1.1",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 14.0,
+        "text": "Torneos de Play! Pokémon en general",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 18.0,
+        "text": "7",
+        "bold": true
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "2.1.2",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "Eventos de la Serie de Campeonatos (todos los niveles)",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "2.1.3",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "Eventos de la Serie de Campeonatos de Videojuegos",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 18.0,
+        "text": "8",
+        "bold": true
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "2.1.4",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "Eventos de la Serie de Campeonatos de",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "Pokémon GO",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "2.1.5",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "Otros torneos y actividades",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "2.1.6",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 14.0,
+        "text": "Preguntas sobre los requisitos de participación en los torneos y actividades",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "2.2",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Cuentas de la Central de Entrenadores Pokémon e ID de jugador",
+        "bold": false
+      },
+      {
+        "page": 9,
+        "size": 18.0,
+        "text": "9",
+        "bold": true
+      }
+    ]
+  },
+  "play-pokemon-vgc-tournament-handbook-es.pdf": {
+    "fonts": {
+      "11.0": 43868,
+      "14.0": 742,
+      "16.0": 701,
+      "20.0": 138,
+      "12.0": 107,
+      "28.0": 72,
+      "10.0": 45,
+      "22.0": 23,
+      "18.0": 11
+    },
+    "headings_sample": [
+      {
+        "page": 1,
+        "size": 28.0,
+        "text": "Manual de reglas de los",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 28.0,
+        "text": "Campeonatos de Videojuegos",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 28.0,
+        "text": "Pokémon de Play!",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 28.0,
+        "text": "Pokémon",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 16.0,
+        "text": "Versión en español",
+        "bold": true
+      },
+      {
+        "page": 1,
+        "size": 16.0,
+        "text": "(España)",
+        "bold": true
+      },
+      {
+        "page": 2,
+        "size": 16.0,
+        "text": "Índice",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 20.0,
+        "text": "Introducción",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "1.1",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "Documentación de apoyo",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "1.2",
+        "bold": false
+      },
+      {
+        "page": 4,
+        "size": 16.0,
+        "text": "Responsabilidades de los competidores",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 20.0,
+        "text": "2",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 20.0,
+        "text": "Creación del equipo",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "2.1",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Preparación del Equipo de Combate",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 14.0,
+        "text": "2.1.1",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 14.0,
+        "text": "Reglamentos en",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 14.0,
+        "text": "Pokémon Champions",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "2.2",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Objetos",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "2.3",
+        "bold": false
+      },
+      {
+        "page": 5,
+        "size": 16.0,
+        "text": "Pokémon",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 14.0,
+        "text": "2.3.1",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 14.0,
+        "text": "Motes y opciones de personalización en el juego",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "2.4",
+        "bold": false
+      },
+      {
+        "page": 6,
+        "size": 16.0,
+        "text": "Lista de equipo",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "2.4.1",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "Información en la lista de equipo",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "2.4.2",
+        "bold": false
+      },
+      {
+        "page": 7,
+        "size": 14.0,
+        "text": "Idioma de la lista de equipo",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 20.0,
+        "text": "3",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 20.0,
+        "text": "Reglas del equipo de juego",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "3.1",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Requisitos del juego",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "3.2",
+        "bold": false
+      },
+      {
+        "page": 8,
+        "size": 16.0,
+        "text": "Consolas y dispositivos compatibles",
+        "bold": false
+      },
+      {
+        "page": 9,
+        "size": 14.0,
+        "text": "3.2.1",
+        "bold": false
+      },
+      {
+        "page": 9,
+        "size": 14.0,
+        "text": "Uso de dispositivos móviles en eventos de Play! Pokémon Store",
+        "bold": false
+      }
+    ]
+  }
+}
