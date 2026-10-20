@@ -5,6 +5,7 @@ Flujo:
     PDF → limpieza → detección de headers → árbol jerárquico
         → chunking de texto + tablas → embeddings E5 → ChromaDB
 """
+
 from __future__ import annotations
 
 import re
@@ -12,6 +13,12 @@ import json
 from pathlib import Path
 from dataclasses import dataclass, field, asdict
 from typing import Iterable
+
+import os
+# Fix para redes con SSL interception (antivirus, proxy, universidad)
+os.environ["CURL_CA_BUNDLE"] = ""
+os.environ["REQUESTS_CA_BUNDLE"] = ""
+os.environ["HF_HUB_DISABLE_SSL_VERIFY"] = "1"
 
 import fitz  # PyMuPDF
 import pdfplumber
@@ -35,6 +42,29 @@ from src.config import (
     ChunkingConfig,
 )
 
+from langchain_core.embeddings import Embeddings
+
+
+class E5Embeddings(Embeddings):
+    """
+    Wrapper de HuggingFaceEmbeddings que aplica prefijos E5
+    automáticamente según el contexto (documento vs consulta).
+    """
+
+    def __init__(self, model_name: str):
+        from langchain_huggingface import HuggingFaceEmbeddings
+        self._base = HuggingFaceEmbeddings(
+            model_name=model_name,
+            model_kwargs={"device": "cpu"},
+            encode_kwargs={"normalize_embeddings": True},
+        )
+
+    def embed_documents(self, texts: list[str]) -> list[list[float]]:
+        prefixed = [f"passage: {t}" for t in texts]
+        return self._base.embed_documents(prefixed)
+
+    def embed_query(self, text: str) -> list[float]:
+        return self._base.embed_query(f"query: {text}")
 
 # ============================================================
 # UTILIDADES DE LIMPIEZA
@@ -186,7 +216,8 @@ def parse_heading(text: str) -> tuple[str, str]:
     Separa '2.1.1 Cumplimiento de...' en ('2.1.1', 'Cumplimiento de...').
     Si no hay número, retorna ('', text).
     """
-    match = re.match(r"^(\d+(?:\.\d+)*)\s+(.*)$", text.strip())
+    # Acepta con o sin espacio después del número
+    match = re.match(r"^(\d+(?:\.\d+)*)\s*(.+)$", text.strip())
     if match:
         return match.group(1), match.group(2).strip()
     return "", text.strip()
@@ -448,17 +479,9 @@ def process_pdf(pdf_path: Path, cfg: ChunkingConfig) -> list[Document]:
 # ============================================================
 # EMBEDDINGS + CHROMADB
 # ============================================================
-def get_embeddings() -> HuggingFaceEmbeddings:
-    """
-    Crea el modelo de embeddings E5.
-    Nota: los prefijos 'passage:' / 'query:' se aplican manualmente al
-    indexar y consultar (ver apply_e5_prefix).
-    """
-    return HuggingFaceEmbeddings(
-        model_name=EMBEDDING_MODEL,
-        model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True},
-    )
+def get_embeddings() -> Embeddings:
+    """Crea el modelo de embeddings E5 con prefijos automáticos."""
+    return E5Embeddings(EMBEDDING_MODEL)
 
 
 def apply_e5_prefix(text: str, is_query: bool = False) -> str:
@@ -466,6 +489,7 @@ def apply_e5_prefix(text: str, is_query: bool = False) -> str:
     from src.config import E5_PASSAGE_PREFIX, E5_QUERY_PREFIX
     prefix = E5_QUERY_PREFIX if is_query else E5_PASSAGE_PREFIX
     return f"{prefix}{text}"
+
 
 
 def ingest_to_chromadb(
@@ -478,15 +502,16 @@ def ingest_to_chromadb(
 
     embeddings = get_embeddings()
 
-    # Aplicar prefijo E5 a los textos de los documentos
-    for doc in documents:
-        doc.page_content = apply_e5_prefix(doc.page_content, is_query=False)
+    if reset:
+        import chromadb
 
-    # Crear/reemplazar la colección
-    if reset and CHROMA_DIR.exists():
-        print(f"   Borrando colección previa en {CHROMA_DIR}")
-        import shutil
-        shutil.rmtree(CHROMA_DIR, ignore_errors=True)
+        client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+
+        try:
+            client.delete_collection(name=CHROMA_COLLECTION_NAME)
+            print(f"   🗑️ Colección anterior eliminada")
+        except Exception as e:
+            print(f"   ℹ️ No se pudo eliminar la colección anterior: {e}")
 
     vectorstore = Chroma.from_documents(
         documents=documents,
@@ -495,10 +520,14 @@ def ingest_to_chromadb(
         persist_directory=str(CHROMA_DIR),
     )
 
-    print(f"✅ Cargados {len(documents)} chunks en ChromaDB")
+    total = vectorstore._collection.count()
+
+    print(f"✅ Cargados {total} chunks en ChromaDB")
     print(f"   Colección: {CHROMA_COLLECTION_NAME}")
     print(f"   Directorio: {CHROMA_DIR}")
+
     return vectorstore
+
 
 
 # ============================================================

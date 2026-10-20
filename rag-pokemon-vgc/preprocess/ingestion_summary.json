@@ -1,0 +1,20 @@
+{
+  "total_chunks": 440,
+  "by_tag": {
+    "penalty_guidelines": 167,
+    "standards_conduct": 48,
+    "general_rules": 161,
+    "vgc_rules": 64
+  },
+  "by_source": {
+    "play-pokemon-penalty-guidelines-es.pdf": 167,
+    "play-pokemon-standards-of-conduct-es.pdf": 48,
+    "play-pokemon-tournament-rules-handbook-es.pdf": 161,
+    "play-pokemon-vgc-tournament-handbook-es.pdf": 64
+  },
+  "by_type": {
+    "text": 263,
+    "table_row": 87,
+    "table": 90
+  }
+}

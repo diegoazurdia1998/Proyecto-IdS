@@ -3,6 +3,18 @@ Configuración central del RAG.
 Todos los parámetros del pipeline se definen aquí.
 """
 import os
+# Fix para redes con SSL interception (antivirus, proxy, universidad)
+os.environ["CURL_CA_BUNDLE"] = ""
+os.environ["REQUESTS_CA_BUNDLE"] = ""
+os.environ["HF_HUB_DISABLE_SSL_VERIFY"] = "1"
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
+import logging
+# Silenciar warnings de telemetría de chromadb/posthog
+logging.getLogger("chromadb.telemetry").setLevel(logging.CRITICAL)
+logging.getLogger("chromadb.telemetry.product.posthog").setLevel(logging.CRITICAL)
+
 from pathlib import Path
 from dataclasses import dataclass, field
 
