@@ -67,6 +67,7 @@ Este proyecto implementa un **RAG (Retrieval-Augmented Generation)** que respond
 ---
 ## 📁 Estructura del Proyecto
 
+```bash
 rag-pokemon-vgc/  
 ├── data/                                        # Corpus documental (4 PDFs)  
 ├── chroma_db/                            # Base vectorial (auto-generada)  
@@ -93,7 +94,7 @@ rag-pokemon-vgc/
 ├── conftest.py  
 ├── requirements.txt  
 └── README.md
-
+```
 
 ---
 ## 🚀 Instalación y Uso
@@ -104,7 +105,7 @@ rag-pokemon-vgc/
 ### Paso 1: Clonar e instalar
 
 ```bash
-git clone <tu-repo>
+git clone https://github.com/diegoazurdia1998/Proyecto-IdS.git
 cd rag-pokemon-vgc
 # Crear entorno virtual
 python -m venv .venv
@@ -304,10 +305,3 @@ El sistema tiene **3 capas de defensa**:
 - **Aprendizaje**: entender las reglas oficiales de forma conversacional
     
 
----
-
-## 👥 Autor
-
-**[Tu nombre]**  
-Proyecto de Ciencia de Datos — Ingeniería de Software  
-Semestre 18 — [Tu Universidad]
